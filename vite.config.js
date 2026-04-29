@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   // REPLACE 'your-repo-name' WITH YOUR ACTUAL GITHUB REPOSITORY NAME
-  base: '/your-repo-name/', 
+  base: 'https://github.com/Nerdalerts/shopify-toolkit', 
   plugins: [
     react(),
     tailwindcss(),
