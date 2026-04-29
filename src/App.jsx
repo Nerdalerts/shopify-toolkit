@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mail, RefreshCw, Copy, Check, AlertCircle, ArrowRight, Sparkles, Send } from 'lucide-react';
 
-const apiKey = "AIzaSyAEqd7QvDRKkcViIe3dEGVWlhbcHZehUyE"; // The execution environment provides the key at runtime
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // The execution environment provides the key at runtime
 
 // --- API & Utility Functions ---
 
